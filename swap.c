@@ -6,11 +6,11 @@ if(ar[i]<ar[i+1])
 max=ar[i+1];
 }
 ar[n]=max;
-ret ar;
+return ar;
 }
 int ssort(int ar[],int l){
 for(int i=0;i<l;++i){
 swap_max(ar[],i);
 }
-ret ar[];
+return ar;
 }
