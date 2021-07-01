@@ -10,7 +10,7 @@ return ar;
 }
 int ssort(int ar[],int l){
 for(int i=0;i<l;++i){
-swap_max(ar[],i);
+swap_max(ar,l,i);
 }
 return ar;
 }
